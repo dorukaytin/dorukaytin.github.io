@@ -45,7 +45,7 @@ author:
   name:                Doruk Aytın
   email:               dorukaytin@gmail.com
   # # Used by `jekyll-seo-tag`:
-  twitter:             <dorukaytin>
+  twitter:             dorukaytin
 
 # Add links to the sidebar.
 menu:

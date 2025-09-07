@@ -14,7 +14,7 @@ redirect_from:
 
 ## Hydejack
 
-Doruk 33 A boutique Jekyll theme for hackers, nerds, and academics.  
+Doruk 44 A boutique Jekyll theme for hackers, nerds, and academics.  
 {:.lead}
 
 1. this list will be replaced by the toc

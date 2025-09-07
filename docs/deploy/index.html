@@ -115,7 +115,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2025-09-07T15:25:16+03:00',
+    INDEX_KEY: 'index--2025-09-07T16:23:52+03:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -312,7 +312,7 @@ To set up the pipeline, create a YAML file in <code class="language-plaintext hi
 <span class="c1"># However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.</span>
 <span class="na">concurrency</span><span class="pi">:</span>
   <span class="na">group</span><span class="pi">:</span> <span class="s2">"</span><span class="s">pages"</span>
-  <span class="na">cancel-in-progress</span><span class="pi">:</span> <span class="no">false</span>
+  <span class="na">cancel-in-progress</span><span class="pi">:</span> <span class="kc">false</span>
 
 <span class="na">jobs</span><span class="pi">:</span>
   <span class="c1"># Build job</span>
@@ -327,7 +327,7 @@ To set up the pipeline, create a YAML file in <code class="language-plaintext hi
         <span class="na">uses</span><span class="pi">:</span> <span class="s">ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42</span> <span class="c1"># v1.161.0</span>
         <span class="na">with</span><span class="pi">:</span>
           <span class="na">ruby-version</span><span class="pi">:</span> <span class="s1">'</span><span class="s">3.1'</span> <span class="c1"># Not needed with a .ruby-version file</span>
-          <span class="na">bundler-cache</span><span class="pi">:</span> <span class="no">true</span> <span class="c1"># runs 'bundle install' and caches installed gems automatically</span>
+          <span class="na">bundler-cache</span><span class="pi">:</span> <span class="kc">true</span> <span class="c1"># runs 'bundle install' and caches installed gems automatically</span>
           <span class="na">cache-version</span><span class="pi">:</span> <span class="m">0</span> <span class="c1"># Increment this number if you need to re-download cached gems</span>
       <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Setup Pages</span>
         <span class="na">id</span><span class="pi">:</span> <span class="s">pages</span>
@@ -386,7 +386,7 @@ GitHub <a href="https://github.com/settings/tokens">Personal Access Token</a> (P
   <span class="na">uses</span><span class="pi">:</span> <span class="s">ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42</span> <span class="c1"># v1.161.0</span>
   <span class="na">with</span><span class="pi">:</span>
     <span class="na">ruby-version</span><span class="pi">:</span> <span class="s1">'</span><span class="s">3.1'</span> <span class="c1"># Not needed with a .ruby-version file</span>
-    <span class="na">bundler-cache</span><span class="pi">:</span> <span class="no">true</span> <span class="c1"># runs 'bundle install' and caches installed gems automatically</span>
+    <span class="na">bundler-cache</span><span class="pi">:</span> <span class="kc">true</span> <span class="c1"># runs 'bundle install' and caches installed gems automatically</span>
     <span class="na">cache-version</span><span class="pi">:</span> <span class="m">0</span> <span class="c1"># Increment this number if you need to re-download cached gems</span>
   <span class="na">env</span><span class="pi">:</span> <span class="c1">#!!</span>
     <span class="na">BUNDLE_GITHUB__COM</span><span class="pi">:</span> <span class="s">x-access-token:${{ secrets.GH_REPO_PAT }}</span> <span class="c1">#!!</span>

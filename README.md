@@ -1,7 +1,7 @@
 # Deploy
 ### Adımlar
 1. Sitede tüm düzenlemeleri yaptıktan sonra main brunch te iken Commitleyip, push edilecek.
-2. Sonrasında `bundle exec jekyll build` ile build alınacak.
+2. Sonrasında `bundle exec jekyll build` ile build alınacak. Build hatası verirse `bundle install` komutu çalıştırılacak.
 3. build sonrası ***gh-pages*** brachine geçiş yapılacak. `git checkout gh-pages`
 
 

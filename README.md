@@ -7,5 +7,6 @@
 5. gh-pages branch'nde olduğumuza eminsek, proje commit ve sonrasında push edilecek.
 6. Github ta "https://github.com/dorukaytin/dorukaytin.github.io/tree/gh-pages" linkinden gönderilen commitin geldiğini ve başarıyla deploy olduğu gözlemlenecek.
 7. Tekrardan kod değişiklikleri için main branc ine dönüş yapılacak. `git checkout main`
+8. Çalıştırmak için ise `bundle exec jekyll serve` komudu kullanılmalıdır.
 
 [^1]: Requires Bundler. Install with `gem install bundler`.

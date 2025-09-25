@@ -2,7 +2,7 @@
 layout: post
 title: Arduino ile RGB LED Modülü Projesi
 description: >
-  Arduino, elektronik projelere başlamak isteyenler için en popüler ve en kolay öğrenilebilen platformlardan biridir. Ben de ilk adım olarak RGB LED modülü kullanarak basit bir proje gerçekleştirdim.
+  Bu yazıda arduino kullanırken doğru direnç kullanmayı öğretmek için ohm kanununu açıkladım.
 sitemap: false
 hide_last_modified: true
 ---

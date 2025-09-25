@@ -2,7 +2,7 @@
 layout: post
 title: Arduino ile RGB LED Modülü Projesi
 description: >
-  Bu yazıda arduino kullanırken doğru direnç kullanmayı öğretmek için ohm kanununu açıkladım.
+  
 sitemap: false
 hide_last_modified: true
 ---

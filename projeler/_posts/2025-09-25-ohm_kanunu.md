@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Arduino ile RGB LED Modülü Projesi
+title: Ohm Kanunu Nedir?
 description: >
   
 sitemap: false
